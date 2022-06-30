@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.container {
+  padding: 0 150px;
+}
+header {
+  background-color: #a16ae8;
+  height: 80px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+form {
+  margin: 5px 0;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 9px;
+  font-size: 25px;
+  margin-right: 7px;
+}
+input[type="submit"] {
+  font-size: 25px;
+  padding: 9px 13px;
+  color: #fff;
+  background-color: #a16ae8;
+  border: 1px solid #a16ae8;
+}
+#tasks{
+    width: 70%;
+    
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    background-color:#f2f2f2;
+    padding: 10px;
+    margin: 4px;
+    font-size: 24px;
+}
+
+.task button{
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    padding: 4px 8px;
+}
